@@ -16,9 +16,67 @@ h1 {
     margin: 0;
 }
 
-nav {
-    margin: 20px 0;
+
+nav{
+
+border: 1px solid black;
+background-color: rgb(113, 135, 204);
+margin: 20px 0;
+
 }
+
+li {
+
+    
+    position: relative;
+}
+
+ul{
+
+    list-style: none; /*el punto, numero, etc que va en la lista*/
+}
+
+#ul_flex{
+
+display: flex;/*nota: display flex se lo ponemos al ul para que los li los
+ponga uno al lado del otro y que quede bonito*/
+justify-content: space-between;
+
+}
+
+a{
+
+color: blue;
+text-decoration: none; /*solo se le pone a los enlaces*/
+
+}
+
+a:hover{
+
+    cursor: pointer;
+    color: rgb(255, 0, 140);
+}
+
+
+li a{
+
+    display: block;
+    
+}
+
+li ul {
+
+display: none;
+
+}/*se le aplica el estilo a un ul que este dentro de un li*/
+
+li:hover > ul{
+
+display: block;
+
+
+}
+
 
 nav a {
     color: white;
@@ -29,6 +87,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
 
 main {
     padding: 20px;
