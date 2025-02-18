@@ -77,6 +77,22 @@ display: block;
 }
 
 
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
 main {
     padding: 20px;
     background: white;
