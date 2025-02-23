@@ -9,7 +9,7 @@ body {
 header {
     background: #007bff;
     color: white;
-    padding: 10px 0;
+    
     text-align: center;
 }
 
@@ -22,9 +22,10 @@ nav>ul{
 
     display: flex;
     justify-content: space-between ;
-    border: 1px solid black;
+    border: 1.5px solid black;
     background-color: rgb(113, 135, 204);
-    margin: 20px 0;
+    margin: 20px 0px;
+    
 
 }
 
@@ -32,11 +33,12 @@ li ul{
 
     display: none;
     position: absolute;/*para que se ponga encima de los demas elementos*/
-    background-color: black;
+    background-color: rgb(113, 135, 204);
+    border: 1.5px solid black;
 }
 
 ul{
-
+    padding-right: 20px;
     list-style: none; /*el punto, numero, etc que va en la lista*/
 }
 
@@ -47,7 +49,7 @@ li:hover>ul{
 
 a{
 
-    color: blue;
+    color: blanchedalmond;
     text-decoration: none; /*solo se le pone a los enlaces*/
 
 }
