@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center;
 }
 
 header {
@@ -67,6 +68,11 @@ a:hover{
 
     cursor: pointer;
     color: rgb(2, 206, 121);
+}
+
+section ul>li>a{
+
+    color: blue;
 }
 
 
