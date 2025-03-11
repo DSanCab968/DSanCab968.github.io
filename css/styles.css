@@ -48,23 +48,14 @@ li:hover>ul{
     display: block;
 }
 
-a{
-
+li>a{
+    display: inline-block;
     color: blanchedalmond;
     text-decoration: none; /*solo se le pone a los enlaces*/
 
 }
 
-a:link{
-    color: blanchedalmond;
-}
-
-a:visited{
-    color: blanchedalmond;
-
-}
-
-a:hover{
+li>a:hover{
 
     cursor: pointer;
     color: rgb(2, 206, 121);
@@ -75,11 +66,11 @@ section ul>li>a{
     color: blue;
 }
 
+section>a{
 
-li a{
+    text-decoration: none;
 
-    display: inline-block;
-    
+    color: inherit;
 }
 
 li ul {
