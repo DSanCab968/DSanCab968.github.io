@@ -112,3 +112,9 @@ img {
     height: auto;
     border-radius: 8px;
 }
+
+p{
+
+    text-align: justify;
+    padding: 10px;
+}
